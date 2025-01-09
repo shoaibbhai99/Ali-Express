@@ -173,7 +173,7 @@ section p {
 }
 
 #angle-down {
-    padding-left: 80px;
+    padding-left: 75px;
 }
 
 .sale {
@@ -348,14 +348,24 @@ section p {
     margin-top: 12px;
 }
 
-@media (min-width: 640px) {
+@media (max-width: 1150px) {
+    .categories {
+        width: 2%;
+        justify-content: center;
+    }
+    section p {
+        display: none;
+    }
+    #angle-down {
+        display: none;
+        width: none;
+    }
+
+}
+@media (max-width: 868px) {
     
 }
 
-@media (min-width: 768px) {
-    
-}
-
-@media (min-width: 1024px) {
+@media (max-width: 650px) {
     
 }

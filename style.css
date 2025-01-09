@@ -11,14 +11,12 @@ nav {
     list-style: none;
     padding-left: 36px;
     padding-right: 36px;
-    /* width: 100%; */
     height: auto;
     display: flex;
     align-items: center;
     gap: 1.8%;
     position: sticky;
     top: 0;
-    /* z-index: 100%; */
 
 }
 
@@ -170,9 +168,8 @@ section p {
     padding-left: 15px;
     font-family: sans-serif;
     display: flex;
-    font-size: 15px;
+    font-size: 14px;
     align-items: center;
-    /* background-color: red; */
 }
 
 #angle-down {
@@ -181,14 +178,12 @@ section p {
 
 .sale {
     color: red;
-    /* border: 1px solid white; */
     padding: 8px 16px;
     border-radius: 20px;
 }
 
 .h1 {
     color: white;
-    /* border: 1px solid white; */
     padding: 8px 16px;
     border-radius: 20px;
 }
@@ -197,7 +192,6 @@ section p {
     display: flex;
     align-items: center;
     gap: 8px;
-    /* border: 1px solid white; */
     padding: 0 10px;
     border-radius: 20px;
 }
@@ -225,10 +219,6 @@ section p {
     padding: 0 32px;
 }
 
-/* .card1{
-
-} */
-
 .card1 img {
     border: 1px solid lightgray;
     border-radius: 99999px;
@@ -247,7 +237,6 @@ section p {
     color: rgb(49, 49, 49);
     display: flex;
     justify-content: center;
-    /* align-self: center; */
 
 }
 
@@ -267,7 +256,6 @@ section p {
 
 .card-container2 {
     display: grid;
-    /* background-color: aqua; */
     grid-template-columns: repeat(5, minmax(0, 1fr));
     padding: 0 32px;
 }

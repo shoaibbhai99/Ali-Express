@@ -17,6 +17,7 @@ nav {
     gap: 1.8%;
     position: sticky;
     top: 0;
+    z-index: 100;
     
 }
 
@@ -444,6 +445,7 @@ section p {
         display: flex;
         justify-content: space-between;
         margin-right: 15px;
+        width: 90.9%;
     }
     #bar{
         display: block;
